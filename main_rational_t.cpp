@@ -58,6 +58,7 @@ a.multiply(b).write();
   
 cout << "a / b: ";
 a.divide(b).write();
-  
+
+a.resta_unidad().write(); 
   return 0;
 }

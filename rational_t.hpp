@@ -108,6 +108,12 @@ rational_t multiply(const rational_t&);
 */
 
 rational_t divide(const rational_t&);
+
+/**
+ * @brief Resta de una unidad de un racional
+*/
+
+rational_t resta_unidad();
   
   /**
    * @brief Declaración del método write
