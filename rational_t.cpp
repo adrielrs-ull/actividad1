@@ -137,7 +137,8 @@ rational_t::divide(const rational_t& r) {
   return rational_t(num_ * r.get_den(), den_ * r.get_num());
 }
 
-rational_t rational_t::resta_unidad() {
+rational_t
+rational_t::resta_unidad() {
   return rational_t(num_ - den_, den_);
 }
 
